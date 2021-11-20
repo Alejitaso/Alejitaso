@@ -10,3 +10,5 @@ CREATE TABLE logindate (
 
 
 );
+
+ALTER TABLE logindate ADD Documento INT(10);
