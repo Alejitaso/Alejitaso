@@ -1,0 +1,20 @@
+﻿CREATE DATABASE mathematicalspace;
+
+CREATE TABLE usuarios (
+	Usuario VARCHAR (10),
+	Contraseña VARCHAR (10),
+	Correo VARCHAR (69),
+	Numero INT(10),
+	Fechanacimiento date,
+	primary key (Usuario)
+
+);
+
+CREATE TABLE Comentarios(
+IDC VARCHAR(280),
+comentario VARCHAR(180),
+Usuario VARCHAR (10),   
+PRIMARY KEY (IDC),
+FOREIGN KEY (Usuario)  REFERENCES usuarios (Usuario)
+    
+);

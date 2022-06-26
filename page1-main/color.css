@@ -1,0 +1,121 @@
+
+body {
+    background-image: url("fondo.jpeg");
+    background-size: cover;
+}
+
+.navegacion {
+    width: 1100px;
+    margin: 30px auto;
+    background: #353535;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: plum;
+    font-family: 'Open sans';
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.menu li a:hover {
+    color: #22cdd9de;
+    transition: all .3s;
+}
+
+.submenu {
+    position: absolute;
+    background: #333333;
+    border: solid 1px plum;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    font-size: 21px;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: plum;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.juego {
+
+    position: absolute; 
+    top: 22%; left: 29%;
+
+
+
+}
+
+.suma {
+    position: absolute; 
+    top: 90%; left: 70%;
+}
+
+.divicion {
+    position: absolute; 
+    top: 90%; left: 30%;
+}
+.multi {
+    position: absolute; 
+    top: 90%; left: 30%;
+}
+.resta {
+    position: absolute; 
+    top: 90%; left: 70%;
+}
+
+.boton {
+    transition-duration: 0.4s;
+  }
+  
+.boton:hover {
+    background-color: plum;   
+    color: purple;
+    
+  }
+
+p {
+    text-align: center;
+    
+}
+
+section {
+    border: 1px #353535;
+    background-color: #3535356c;
+    font-family: cursive;
+    color:rgb(255, 255, 255);
+    margin-left : 125px ;
+    margin-top: 32px;
+    margin-right: 125px;
+    
+    
+}
+
+h3 {
+    background-color: #35353578;
+    color: plum;    
+    text-align: center;
+    width: 100%;
+    border-bottom: 3px inset #fffdfd;
+    font-family: cursive;
+}
